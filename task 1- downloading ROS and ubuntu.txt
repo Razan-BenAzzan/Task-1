@@ -1,0 +1,37 @@
+Rzan Abdulrab Ben Azzan
+
+First Task
+
+we are trying to control a robot with ROS: robotic operating system 
+and to use it we need to download it on another operating system, Linux.
+we are using Linux over windows for better experience of resources 
+
+before installing Linux, we will be using a VirtualBox for it rather than downloading it directly to the computer
+
+Download Virtual box:
+https://www.virtualbox.org/wiki/Downloads
+- download the latest newest version
+- open the file and install it
+- lunch the app then,
+
+Ubuntu:
+ from here https://ubuntu.com/download/desktop
+- download the newest version
+- go to VirtualBox and select new
+- name it as you want, then pick Linux on type field and ubuntu on version field
+- select the amount of memory that you want to allocate for the VirtualBox, but we won’t need much memory since we are using Linux
+- select "Create a virtual hard disk now" then "VDI (VirtualBox Disk Image)" for easier usage
+- select the file location 
+- go to settings >Storage> Empty> select the disk the from the menu>choose virtual optical disk file > ubuntu, then,
+- go to Shared Folders> the icon for the folder with a plus sign on it> down arrow “other" > 
+   navigate to the folder on your operating system that you want to share with the guest operating system  
+- start
+- install ubuntu
+
+
+ROS:
+http://wiki.ros.org/ROS/Installation
+- select ROS Noetic Ninjemys
+- select ubuntu 
+- follow instructions
+- you can follow the instructions here http://wiki.ros.org/catkin/Tutorials/create_a_workspace to create a workspace for catkin
